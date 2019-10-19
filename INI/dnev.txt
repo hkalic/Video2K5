@@ -1,0 +1,8 @@
+1 - nešto sa zakljuèkom, ali šta?
+2 - ispravak kartice; br1=staro zaduženje, br2=novo zaduženje
+3 - promjena salda; br1=vraæanje duga, br2=novi dug
+4 - brisanje barkoda
+5 - izmjena popusta; br1=stari popust
+6 - kada se tko logirao
+7 - pali zvjezdicu
+8 - gasi zvjezdicu

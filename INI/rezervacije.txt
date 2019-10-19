@@ -1,0 +1,8 @@
+X - web rezervacija
+D - web dostava
+Y - web zadužena rezervacija
+S - web zadužena dostava
+Z - web isporuèena rezervacija
+B - web obrisana rezervacija
+
+R - rezervacija

@@ -1,0 +1,218 @@
+28.7.2010
+- dodana opcija u Setup 'VrstaPoslovnice'
+- skloniti UI elementi vezani za frizerski=true
+- dodan podsjetnik ako se zatvori kartica koja ima stavke (nije naplaèane)
+
+20.7.2010
+- log rotate odraðen
+
+9.6.2010
+- dodano validiranje unosa èlanova
+
+22.5.2010
+- završen popup u kartici za prazna polja (email, mobitel, email, facebook)
+
+18.5.2010
+- dodana tablica "Socialnets" (facebook za sada)
+- kozmetika kartice zbog "Fejsa" i ostaloga
+- TClanovi dodan field "SocialStatus" - SmallInt
+
+21.4.2010
+- izbaèeno brojanje ZaradioDEM
+- ispravljen BUG kod izdavanja raèuna za èlanarinu
+- "skraèene" tablice racuni i racunidetail (na > 1.1.2009.)
+
+23.3.2010
+- ispravljena greška za naplatu po ugovoru
+- dodana kolona 'Vrsta' u TVrstePlacanja
+
+13.3.2010
+- doraðene poruke oko otvaranja kartice
+- dodana tablica 'vrstaplacanja'
+- dodan field 'vrstaplacanja' u racuni i racuni2
+
+20.1.2010
+- popravljen pregled rada djelatnika
+- dodan napredni pregled - broj izdanih dana po iznosu
+
+2.1.2010
+- promjene zbog OIB-a
+- doraðeno skidanje popusta (sa isteka èlanarine)
+
+30.12.2009
+- doraðeno skidanje popusta (kartica)
+- popravljen ispis raèuna poslje uplate èlanstva po ugovoru (saldo i sl.)
+
+21.12.2009
+- dodana vrsta èlana u top po žanru
+- sreðeni datumi u naprednom pregledu èlanova
+
+17.11.2009
+- dodan field u Setup (`top10` varchar(20),)
+- sreðena top lista èlanova po žanrovima (napredni pregled)
+
+8.9.2009
+- dodan 'ObveznikPDV' u TSetup
+- dodan ispis u zaglavlje raèuna i zakljuèka ako klub 'nije obveznik PDV-a'
+
+25.6.2009
+- dodan pregled Opomene èlanova u dugu
+- popravljeno zaduživanje sa wishliste (iz kartice)
+- modificiran upit o èlanovima sa isteklim èlanarinama (RAZNI PREGLEDI-ÈLANOVI S ISTEKLIM ÈLANARINA)
+
+19.3.2009
+- dodan Napredni pregled keywordova
+- sreðeno dodavanje napomene na MainForm i "Poruke" u Kartici
+- promjenjen JMBG u MOBITEL u kartici
+
+17.10.2008
+- promjenjen Field Vrijeme u TKazete sa varchar u integer
+- dodan pg Field u TKazete (varchar(10))
+- dodani Min i Max od GOd.Proizvodnje i Trajanje
+- dodan "k.imdb, k.pg" u upite za printanje barkodova, napredni pregled 
+- !!! promjena "OdabirBarkodova.sql"
+
+26.9.2008
+- dodan Field "imdb" u Kazete (float)
+- dodano polje u EditKazeta za "imdb"
+
+12.8.2008
+- dodani šifrarnici: blagadani, naèini kontaktiranja
+- dodan dio thredanog upita kod sredinaplatu
+
+7.8.2008
+- ispravljeni problemi sa snimanjem kartice, brisanjem sa kartice, ispis potvrda
+- dodano prebacivanje wish liste <-> rezervacije
+- dodano zaduživanje sa wishlista i rezervacija iz kartice
+- ispravljen editiranje (F5) datuma rezervacija
+- rješen problem Integer<>BigInt
+- dodan export u datasetova u html umjesto printanja (u preglede wishlista, rezervacija, narudžbi)
+
+5.8.2008
+- dodana tablica 'NacinKontaktiranja'
+- dodan F1 u karticu za odabir "Naèina kontaktiranja èlana" - napomena3
+
+1.8.2008
+- prepravljeni web upiti od tajmera da rade na drugom threadu
+
+15.7.2008
+- dodana funikcija F9 kod zaduživanja filmova iz rezervacija
+- ispravljen ispis raèuna da piše i ime èlana
+
+18.6.2008
+- ispravljena greška kod datuma posudbe na racundetail kada su kazete posuðene na razlièite datume
+- ispravljen BigInt Expected kod "br.raè. od plaèanja po ugovoru"
+- dodana kolona 'Duzan' (saldo) na TRacun i TRacun2 - da se prati trenutni saldo kod plaèanja
+- dodana kolona "trebao platiti" (tj. Iznos) na izvještaju kartice èlana
+
+9.11.2007
+- dodani detalji WishListe (MainForm)
+- ispravljeni upiti u Naprednom pregledu
+
+24.10.2007
+- ispravljeno editiranje texta ugovora (provjeri)
+- promjena u soljnjem djelu kartice - dodan TabPage control
+- dodana wishlista u karticu
+
+8.10.2007
+* Šta sa više rezervacija istog filma istog dana - brojati medije?
+- dodan TEdit za unos rezervacije
+
+6.10.2007
+- dodana kontrola da li je film rezerviran kod izdavanja filma
+- dodan grid za rezervaciju èlanova u fKartica
+
+27.8.2007
+- sreðen BUG kod web narudžbi za F9 kada nebriše narudžbu
+- filmovi sa statusom OK sreðeni da nisu obrisani
+- vraæeno polje Obrisan u TKazete, popravljen "vrati film" button
+
+23.8.2007
+- vraæena polja ZaradioKN, ZaradioDEM, IzdatPuta i IzdanoKop u TKazete
+
+22.8.2007
+* Dodana VrstaMedija u TKazete zbog upita za website
+
+13.8.2007
+- stvarno sreðena naplata2 (komplet)
+
+7.7.2007
+- sreðena naplata2 (bez blagdana)
+- popravljen Pregled salda èlanova
+
+6.8.2007
+- sreðeno logiranje upita
+- DlgFilm popravljen
+
+4.8.2007
+* TKazete - vraèen field BrKazeta (iz TKazDetail)
+
+23.7.2007
+- dodano logiranje naplate u naplata.txt
+- popravljen napredni pregled kazeta. sada gleda i u kazetedetail
+
+17.7.2007
+* 2do - unos blagdana
+- dodan BlagdanVikendu u TSetup i u info bar
+
+15.7.2007
+- rješeno prepravke vezane za TKazeteDetail
+- dodana funkcija DaLiJeBlagdan:boolean
+
+13.7.2007
+- dodana tablica rezervacija2
+- ispravljeno brisanje barkodova (i vraèanje barkoda u klub)
+- 2do zapoèete promjene oko dodavanja kazetedetail tablice
+
+2.1.2007
+- završene low_rights (shirnkUI) postavke (prije pokretanja MainForma)
+- sreðen About box
+
+5.11.2006
+- dodana shirnkUI varijabla i polje
+
+3.8.2006
+- sreðen katalog da radi sa svim firmama
+- popravljeno autogeneriranje barkodova
+- dodano u Obradu poslovanja - pregled po klubu i datumu
+
+18.6.2006
+- 2do izraèunaj brkazeta, kupljenokazeta, IzdanoKop(.sql) u kazetedetail
+
+10.6.2006
+- dodan saldo na ispis raèuna ali.... sada radi 2.1.2007
+
+6.6.2006
+- dodan ispis prometa i za poslje TOP10
+- dodan datum_pos u F11
+
+23.5.2006
+- dodan unos detalja filma za firmu
+
+14.5.2006
+- dodan izbornik za odabir firme kod unosa tRadnik
+- promjena bindingsa u unosu kazeta + poboljšavanje izgleda
+
+11.5.2006
+- sreðena firma u password dlg
+
+8.5.2006
+- u Setup dodana kolona SifraFirme
+- kopirana tablica Kazete u KazeteDetail, onda smanjen broj kolona u KDetail 
+- dodana kolona SifraKazete ,SifraFirme=1 i ixSifraFirme, ixSifraKazete
+- 2do treba smanjiti kolone u Kazete tablici (razlika od KDetail)
+- doadna kolona SifraFirme u radnici
+
+23.3.2006
+- dodano skini sa crne liste iz kartice
+- ispravak za printanje zaduženja da prije snimi izmjene na kartici
+
+21.3.2006
+- ispravljeno da bilježi web narudžbe u pos_solid
+- dodano u kartici CTRL+F10 "Stavi na crnu listu"
+
+2.3.2006
+- Poveèana dužina "naziva filma" i "original naziva filma"
+- vraèeno da se pos zvjezdicom bilježi u tablicu koi
+- dodani podaci koji fale u tablici koi
+- ispravljeno da se ne zbraja film kada se ispravi na kartici

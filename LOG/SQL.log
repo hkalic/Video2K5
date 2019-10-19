@@ -1,0 +1,461 @@
+::Startan program - 02.08.2010 18:54:21
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='A'
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='DS'
+__ Start DESTROY DataModul - False 02.08.2010 18:54:31
+__ Kraj DESTROY DataModul - False 02.08.2010 18:54:31
+__ Start TMainForm.FormDestroy - False 02.08.2010 18:54:31
+__ Kraj TMainForm.FormDestroy - False 02.08.2010 18:54:31
+::Startan program - 02.08.2010 18:54:45
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 02.08.2010 18:54:49
+__ Kreiranje Threda - True 02.08.2010 18:54:49
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-08-02 18:54:49', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 02.08.2010 18:55:20
+__ Kreiranje Threda - True 02.08.2010 18:55:20
+__ Startanje Timera - False 02.08.2010 18:55:29
+__ Kreiranje Threda - True 02.08.2010 18:55:29
+__ Startanje Timera - False 02.08.2010 18:55:39
+__ Kreiranje Threda - True 02.08.2010 18:55:39
+__ Start DESTROY DataModul - False 02.08.2010 18:55:45
+__ Kraj DESTROY DataModul - False 02.08.2010 18:55:45
+__ Start TMainForm.FormDestroy - False 02.08.2010 18:55:45
+__ Kraj TMainForm.FormDestroy - False 02.08.2010 18:55:45
+::Startan program - 02.08.2010 19:10:38
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 02.08.2010 19:10:43
+__ Kreiranje Threda - True 02.08.2010 19:10:43
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-08-02 19:10:43', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+::Startan program - 02.08.2010 19:12:39
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 02.08.2010 19:12:42
+__ Kreiranje Threda - True 02.08.2010 19:12:42
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-08-02 19:12:42', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+::Startan program - 02.08.2010 19:14:05
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 02.08.2010 19:14:08
+__ Kreiranje Threda - True 02.08.2010 19:14:08
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-08-02 19:14:09', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 02.08.2010 19:14:35
+__ Kreiranje Threda - True 02.08.2010 19:14:35
+__ Startanje Timera - False 02.08.2010 19:14:39
+__ Kreiranje Threda - True 02.08.2010 19:14:39
+__ Startanje Timera - False 02.08.2010 19:14:49
+__ Kreiranje Threda - True 02.08.2010 19:14:49
+__ Start DESTROY DataModul - False 02.08.2010 19:15:00
+__ Kraj DESTROY DataModul - False 02.08.2010 19:15:00
+__ Start TMainForm.FormDestroy - False 02.08.2010 19:15:00
+__ Kraj TMainForm.FormDestroy - False 02.08.2010 19:15:00
+::Startan program - 02.08.2010 19:16:54
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 02.08.2010 19:16:57
+__ Kreiranje Threda - True 02.08.2010 19:16:57
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-08-02 19:16:57', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 02.08.2010 19:17:07
+__ Kreiranje Threda - True 02.08.2010 19:17:07
+__ Startanje Timera - False 02.08.2010 19:17:17
+__ Kreiranje Threda - True 02.08.2010 19:17:17
+__ Start DESTROY DataModul - False 02.08.2010 19:17:27
+__ Kraj DESTROY DataModul - False 02.08.2010 19:17:27
+__ Start TMainForm.FormDestroy - False 02.08.2010 19:17:27
+__ Kraj TMainForm.FormDestroy - False 02.08.2010 19:17:27
+::Startan program - 02.08.2010 19:19:17
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+__ Start DESTROY DataModul - False 02.08.2010 19:19:18
+__ Kraj DESTROY DataModul - False 02.08.2010 19:19:18
+__ Start TMainForm.FormDestroy - False 02.08.2010 19:19:18
+__ Kraj TMainForm.FormDestroy - False 02.08.2010 19:19:18
+::Startan program - 21.08.2010 9:05:40
+::server=5.1.36-community, client=5.0.51a
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+__ Start DESTROY DataModul - False 21.08.2010 9:08:31
+__ Kraj DESTROY DataModul - False 21.08.2010 9:08:31
+__ Start TMainForm.FormDestroy - False 21.08.2010 9:08:31
+__ Kraj TMainForm.FormDestroy - False 21.08.2010 9:08:31
+::Startan program - 06.12.2010 0:19:08
+__ Start DESTROY DataModul - False 06.12.2010 0:19:34
+__ Kraj DESTROY DataModul - False 06.12.2010 0:19:34
+__ Start TMainForm.FormDestroy - False 06.12.2010 0:19:34
+__ Kraj TMainForm.FormDestroy - False 06.12.2010 0:19:34
+::Startan program - 06.12.2010 0:20:56
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 06.12.2010 0:21:01
+__ Kreiranje Threda - True 06.12.2010 0:21:01
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-06 00:21:01', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+TQ:> select sifra, ImePrezime, Adresa, MjStanovanja from clanovi    ORDER BY Sifra 
+__ Startanje Timera - False 06.12.2010 0:21:14
+__ Kreiranje Threda - True 06.12.2010 0:21:14
+__ Startanje Timera - False 06.12.2010 0:21:21
+__ Kreiranje Threda - True 06.12.2010 0:21:21
+__ Start DESTROY DataModul - False 06.12.2010 0:21:28
+__ Kraj DESTROY DataModul - False 06.12.2010 0:21:28
+__ Start TMainForm.FormDestroy - False 06.12.2010 0:21:28
+__ Kraj TMainForm.FormDestroy - False 06.12.2010 0:21:28
+::Startan program - 06.12.2010 0:21:46
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 06.12.2010 0:21:49
+__ Kreiranje Threda - True 06.12.2010 0:21:49
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-06 00:21:49', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+TQ:> select sifra, ImePrezime, Adresa, MjStanovanja from clanovi    ORDER BY Sifra 
+__ Startanje Timera - False 06.12.2010 0:21:59
+__ Kreiranje Threda - True 06.12.2010 0:21:59
+__ Start DESTROY DataModul - False 06.12.2010 0:22:07
+__ Kraj DESTROY DataModul - False 06.12.2010 0:22:07
+__ Start TMainForm.FormDestroy - False 06.12.2010 0:22:07
+__ Kraj TMainForm.FormDestroy - False 06.12.2010 0:22:07
+::Startan program - 06.12.2010 0:22:28
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 06.12.2010 0:22:31
+__ Kreiranje Threda - True 06.12.2010 0:22:31
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-06 00:22:31', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+TQ:> select sifra, ImePrezime, Adresa, MjStanovanja from clanovi    ORDER BY Sifra 
+__ Startanje Timera - False 06.12.2010 0:22:41
+__ Kreiranje Threda - True 06.12.2010 0:22:41
+__ Start DESTROY DataModul - False 06.12.2010 0:22:50
+__ Kraj DESTROY DataModul - False 06.12.2010 0:22:50
+__ Start TMainForm.FormDestroy - False 06.12.2010 0:22:50
+__ Kraj TMainForm.FormDestroy - False 06.12.2010 0:22:50
+::Startan program - 06.12.2010 22:41:58
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 06.12.2010 22:42:03
+__ Kreiranje Threda - True 06.12.2010 22:42:03
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-06 22:42:03', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+TQ:> select sifra, ImePrezime, Adresa, MjStanovanja from clanovi    ORDER BY Sifra 
+__ Startanje Timera - False 06.12.2010 22:42:13
+__ Kreiranje Threda - True 06.12.2010 22:42:13
+__ Startanje Timera - False 06.12.2010 22:42:23
+__ Kreiranje Threda - True 06.12.2010 22:42:24
+TClanovi:>select Sifra,ImePrezime,Adresa,MjStanovanja,Telefon,Jmbg,Osobna,Duzan,Ovlast1,Ovlast2,Ovlast3,Popust,BrojZaduz,BarCode,SMS,Napomena,Azurirano,Djelatnik,Napomena2,DatumUpisa,KlubUpisa,InfoBoxID,EMail,Mobitel,PrvaPosudba,Napomena3,VrstaPologa,PologVrijediDo,StatusClana,DatumIzmEmail,DatumIzmMob,SocialStatus from clanovi  where (Sifra=13910) 
+TQ:> select k.Sifra, k.Naziv, k.OrginalNaziv, k.Zanr, k.Obrisan from kazete k  ORDER BY Sifra 
+__ Startanje Timera - False 06.12.2010 22:42:33
+__ Kreiranje Threda - True 06.12.2010 22:42:33
+__ Startanje Timera - False 06.12.2010 22:42:43
+__ Kreiranje Threda - True 06.12.2010 22:42:43
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+__ Start DESTROY DataModul - False 06.12.2010 22:42:50
+__ Kraj DESTROY DataModul - False 06.12.2010 22:42:50
+__ Start TMainForm.FormDestroy - False 06.12.2010 22:42:50
+__ Kraj TMainForm.FormDestroy - False 06.12.2010 22:42:50
+::Startan program - 13.12.2010 22:16:39
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 13.12.2010 22:16:44
+__ Kreiranje Threda - True 13.12.2010 22:16:44
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-13 22:16:44', 'ADM', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 13.12.2010 22:16:54
+__ Kreiranje Threda - True 13.12.2010 22:16:54
+__ Startanje Timera - False 13.12.2010 22:17:04
+__ Kreiranje Threda - True 13.12.2010 22:17:04
+__ Start DESTROY DataModul - False 13.12.2010 22:17:18
+__ Kraj DESTROY DataModul - False 13.12.2010 22:17:18
+__ Start TMainForm.FormDestroy - False 13.12.2010 22:17:18
+__ Kraj TMainForm.FormDestroy - False 13.12.2010 22:17:18
+::Startan program - 13.12.2010 22:18:41
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=11) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=5) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=5 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 13.12.2010 22:18:50
+__ Kreiranje Threda - True 13.12.2010 22:18:50
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-13 22:18:50', 'ADM', 0, 0, 11)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 13.12.2010 22:19:00
+__ Kreiranje Threda - True 13.12.2010 22:19:00
+TRacuni:>select * from racuni  WHERE datum>='2010-12-01' and datum<='2010-12-13 23:59:59' AND sifrakluba=11   
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000001'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323168
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=3483
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5450
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000002'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323169
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=13875
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=2573
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5396
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000003'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323170
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=9659
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000004'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323171
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=1692
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000005'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323172
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=2242
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000006'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323173
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=13485
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5381
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=1964
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000007'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323174
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=9985
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000008'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323175
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=3502
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=4663
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=3801
+__ Startanje Timera - False 13.12.2010 22:19:10
+__ Kreiranje Threda - True 13.12.2010 22:19:10
+__ Startanje Timera - False 13.12.2010 22:19:20
+__ Kreiranje Threda - True 13.12.2010 22:19:20
+__ Startanje Timera - False 13.12.2010 22:19:30
+__ Kreiranje Threda - True 13.12.2010 22:19:30
+__ Startanje Timera - False 13.12.2010 22:19:40
+__ Kreiranje Threda - True 13.12.2010 22:19:40
+__ Start DESTROY DataModul - False 13.12.2010 22:19:46
+__ Kraj DESTROY DataModul - False 13.12.2010 22:19:46
+__ Start TMainForm.FormDestroy - False 13.12.2010 22:19:46
+__ Kraj TMainForm.FormDestroy - False 13.12.2010 22:19:46
+::Startan program - 13.12.2010 22:20:21
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=11) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=5) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=5 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 13.12.2010 22:20:31
+__ Kreiranje Threda - True 13.12.2010 22:20:31
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2010-12-13 22:20:31', 'ADM', 0, 0, 11)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+__ Startanje Timera - False 13.12.2010 22:20:41
+__ Kreiranje Threda - True 13.12.2010 22:20:41
+TRacuni:>select * from racuni  WHERE datum>='2010-12-01' and datum<='2010-12-15 23:59:59' AND sifrakluba=11   
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000001'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323168
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=3483
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5450
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000002'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323169
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=13875
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=2573
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5396
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000003'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323170
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=9659
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000004'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323171
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=1692
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000005'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323172
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=2242
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000006'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323173
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=13485
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=5381
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=1964
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000007'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323174
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=9985
+qRacuni:>SELECT Sifra, SifraKluba, Brojracuna, Datum, Radnik, SifraClana, Popust, StopaPoreza, VrstaRacuna, Cifra FROM racuni WHERE SifraKluba=11 AND Brojracuna='11-000008'
+qRacuniDet:>SELECT Sifra, SifraRacuna, SifraKazete, Barcode, DatumPos, Dan, Svaki, Vikend, Blagdan, BrDan, BrSvaki, BrVikend, BrBlagdan FROM racunidetail WHERE SifraRacuna=323175
+myQuery1:>SELECT ImePrezime, Adresa, Duzan, MjStanovanja FROM clanovi WHERE Sifra=3502
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=4663
+myQuery1:>SELECT Naziv FROM kazete WHERE Sifra=3801
+__ Startanje Timera - False 13.12.2010 22:21:14
+__ Kreiranje Threda - True 13.12.2010 22:21:14
+__ Startanje Timera - False 13.12.2010 22:21:21
+__ Kreiranje Threda - True 13.12.2010 22:21:21
+__ Startanje Timera - False 13.12.2010 22:21:31
+__ Kreiranje Threda - True 13.12.2010 22:21:31
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+__ Start DESTROY DataModul - False 13.12.2010 22:21:43
+__ Kraj DESTROY DataModul - False 13.12.2010 22:21:43
+__ Start TMainForm.FormDestroy - False 13.12.2010 22:21:43
+__ Kraj TMainForm.FormDestroy - False 13.12.2010 22:21:43
+::Startan program - 18.01.2011 22:39:48
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=11) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=5) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=5 AND Lozinka='ROBOTECH'
+__ Startanje Timera - False 18.01.2011 22:39:58
+__ Kreiranje Threda - True 18.01.2011 22:39:58
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2011-01-18 22:39:58', 'ADM', 0, 0, 11)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+::server=5.0.51a-24+lenny4-log, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+__ Start DESTROY DataModul - False 18.01.2011 22:40:14
+__ Kraj DESTROY DataModul - False 18.01.2011 22:40:14
+__ Start TMainForm.FormDestroy - False 18.01.2011 22:40:14
+__ Kraj TMainForm.FormDestroy - False 18.01.2011 22:40:14
+::Startan program - 24.01.2011 23:42:45
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=11) 
+__ Start DESTROY DataModul - False 24.01.2011 23:42:47
+__ Kraj DESTROY DataModul - False 24.01.2011 23:42:47
+__ Start TMainForm.FormDestroy - False 24.01.2011 23:42:47
+__ Kraj TMainForm.FormDestroy - False 24.01.2011 23:42:47
+::Startan program - 24.01.2011 23:46:49
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=11) 
+__ Start DESTROY DataModul - False 24.01.2011 23:46:50
+__ Kraj DESTROY DataModul - False 24.01.2011 23:46:50
+__ Start TMainForm.FormDestroy - False 24.01.2011 23:46:50
+__ Kraj TMainForm.FormDestroy - False 24.01.2011 23:46:50
+::Startan program - 24.01.2011 23:47:10
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='A'
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='DS'
+__ Start DESTROY DataModul - False 24.01.2011 23:47:16
+__ Kraj DESTROY DataModul - False 24.01.2011 23:47:16
+__ Start TMainForm.FormDestroy - False 24.01.2011 23:47:16
+__ Kraj TMainForm.FormDestroy - False 24.01.2011 23:47:16
+::Startan program - 24.01.2011 23:47:19
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+TabSetUp:>select * from setup  where (SifraKluba=9) 
+TabPristup:>select * from pristup     
+tabradnici:>select * from radnici  where (SifraFirme=3) 
+myQuery1:>SELECT * FROM radnici WHERE SifraFirme=3 AND Lozinka='SS'
+__ Startanje Timera - False 24.01.2011 23:47:20
+__ Kreiranje Threda - True 24.01.2011 23:47:20
+myQuery1:>INSERT INTO dnev (Dogodilose, Datum, Radnik, Br1, Br2, SifraKluba) VALUES (6, '2011-01-24 23:47:20', 'SS', 0, 0, 9)
+Tvrsta:>select sifra, naziv from vrsta order by naziv
+TGlumac:>select sifra, naziv from glumci order by naziv
+TDrzav:>select sifra, naziv from drzava order by naziv
+TDobav:>select sifra, naziv from dobav order by naziv
+TMediji:>select sifra, naziv from medij order by naziv
+tVrstePlacanja:>select * from vrstaplacanja  where (Aktivan='D') 
+::server=5.1.36-community, client=5.0.51a
+myQuery1:>SET character_set_server = latin2, collation_server = latin2_croatian_ci, character_set_database = latin2, collation_database = latin2_croatian_ci, character_set_results = latin2, character_set_client = latin2, character_set_connection = latin2, collation_connection = latin2_croatian_ci;
+__ Start DESTROY DataModul - False 24.01.2011 23:47:33
+__ Kraj DESTROY DataModul - False 24.01.2011 23:47:33
+__ Start TMainForm.FormDestroy - False 24.01.2011 23:47:33
+__ Kraj TMainForm.FormDestroy - False 24.01.2011 23:47:33

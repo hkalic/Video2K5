@@ -1,0 +1,103 @@
+[FileVersion]
+Version=6.0
+[Compiler]
+A=8
+B=0
+C=0
+D=1
+E=0
+F=0
+G=1
+H=1
+I=1
+J=0
+K=0
+L=1
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=1
+W=0
+X=1
+Y=2
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=24576
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=c:\pas\vcl;C:\Pas\Lmd60\Source\lmdcore60;C:\Pas\Wolf\1stClass_D5\source;C:\Pas\Wolf\ip3000d5\source;c:\pas\rx275\units;$(DELPHI)\source\vcl;$(DELPHI)\source\rtl\win;$(DELPHI)\QuickRpt;C:\Pas\Zip150\Vcl;$(DELPHI)\source\ToolsApi;C:\Pas\DuckBarcode;C:\Pas\CoolDBUtil\Sources;C:\Pas\OnGuard;C:\Pas\amenus
+Packages=VCL40;VCLX40;VCLDB40;VCLDBX40;VCLSMP40;QRPT40;ibevnt40;VCLMID40;INET40;INETDB40;IP40_D4;ip40client;FirstClassd_d4;FIRSTCLASS_D4;RXCTL4;RXDB4;LMD40;LMD40DB;TEEUI40;TEEDB40;TEE40;DSS40;NMFAST40;Qrd;D4_slok;Gen_pack;Qrpp;IP50_D4;vcl;vclx;vcldb;qrpt
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=ZMMOKI ZM0
+HostApplication=
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=5
+MinorVer=0
+Release=1
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1050
+CodePage=1250
+[Version Info Keys]
+CompanyName=CVBHFGB
+FileDescription=
+FileVersion=5.0.1.1
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+[Excluded Packages]
+c:\program files\borland\delphi6\Projects\Bpl\ZipMasterPack.bpl=Freeware Zip and Unzip package
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSPrVwAdvD6.bpl=ExpressPrinting System Advanced Preview Window by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxDBTVLnkD6.bpl=ExpressPrinting System ReportLink for ExpressDBTree by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxInsLnkD6.bpl=ExpressPrinting System ReportLink for ExpressInspector by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxMVLnkD6.bpl=ExpressPrinting System ReportLink for ExpressMasterView by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxOCLnkD6.bpl=ExpressPrinting System ReportLinks for ExpressOrgChart by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxDBOCLnkD6.bpl=ExpressPrinting System ReportLinks for ExpressDBOrgChart by Developer Express Inc.
+C:\Program Files\Developer Express Inc\ExpressPrinting System\Delphi 6\Lib\dxPSdxFCLnkD6.bpl=ExpressPrinting System ReportLinks for ExpressFlowChart by Developer Express Inc.
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=2
+Item0=c:\pas\vcl;C:\Pas\Lmd60\Source\lmdcore60;C:\Pas\Wolf\1stClass_D5\source;C:\Pas\Wolf\ip3000d5\source;c:\pas\rx275\units;$(DELPHI)\source\vcl;$(DELPHI)\source\rtl\win;$(DELPHI)\QuickRpt;C:\Pas\Zip150\Vcl;$(DELPHI)\source\ToolsApi;C:\Pas\DuckBarcode;C:\Pas\CoolDBUtil\Sources;C:\Pas\OnGuard;C:\Pas\amenus
+Item1=c:\pas\vcl;C:\Pas\Lmd60\Source\lmdcore60;C:\Pas\Wolf\1stClass_D5\source;C:\Pas\Wolf\ip3000d5\source;c:\pas\rx275\units;$(DELPHI)\source\vcl;$(DELPHI)\source\rtl\win;$(DELPHI)\QuickRpt;C:\Pas\Zip150\Vcl;$(DELPHI)\source\ToolsApi;C:\Pas\DuckBarcode;C:\Pas\CoolDBUtil\Sources;C:\Pas\OnGuard
